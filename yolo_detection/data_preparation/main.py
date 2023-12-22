@@ -11,7 +11,7 @@ import pandas as pd
 warnings.filterwarnings('ignore')
 
 # step-1: get path of each xml file
-xmlfiles = glob('./data_images/*.xml')
+xmlfiles = glob('data_images/*.xml')
 
 # replace \\ with /
 replace_text = lambda x: x.replace('\\', '/')
